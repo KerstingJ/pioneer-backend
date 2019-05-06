@@ -1,0 +1,27 @@
+Contractor 1-->Many Project 1-->1 Review
+
+Contractor
+    id
+    name
+    phone
+    email
+    address
+    websiteUrl
+    Projects
+
+
+Project
+    id
+    contractorId
+    images
+    location
+    details
+    votes
+    tags
+    clientName
+    Review
+
+
+Review
+    rating
+    review
